@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+@media (min-width: 600px) {
+
+    .img-padrao{
+        max-width: 420px;
+    }
+
+    .card{
+        max-width: 420px;
+    }
+
+    .listas{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .texto-sobre{
+        max-width: 420px;
+    }
+
+    .comentario{
+        max-width: 420px;
+        text-align: center;
+    }
+
+    .card-text{
+        font-size: 1.1em;
+    }
+}
+
+
+@media (min-width: 840px) {
+
+    .chamada{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .promo{
+        margin: 0;
+    }
+}
+
+@media (max-width: 992px){
+    .centro-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 992px){
+
+    .card{
+        max-width: 250px;
+    }
+
+    .servicos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-valor{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .servicos-gerais{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .sobre{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobre-apvs{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+    }
+
+    .sobre-consultor{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+}
+
+@media (min-width: 1200px){
+    body{
+        margin: 0px 234px;
+    }
+
+    .titulo-secao{
+        font-size: 2.2em;
+    }
+
+    .chamada{
+        justify-content: space-around;
+        gap: 60px;
+    }
+
+    .promo h1{
+        font-size: 2.5em;
+    }
+
+    .img-padrao{
+        max-width: 500px;
+    }
+
+    .card{
+        max-width: 320px;
+    }
+
+    .servicos-gerais{
+        gap: 140px;
+    }
+
+    .sobre-apvs{
+        gap: 250px;
+    }
+
+    .sobre-consultor{
+        gap: 250px;
+    }
+
+    .pergunta{
+        max-width: 1025px;
+    }
+}

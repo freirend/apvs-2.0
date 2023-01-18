@@ -9,6 +9,10 @@ body{
     font-family: 'roboto', cursive;
 }
 
+.primeiro-cont{
+    margin-top: 128px;
+}
+
 .logo{
     width: 115px;
     color: #114094;
@@ -21,6 +25,13 @@ body{
 
 main{
     padding: 0 16px;
+}
+
+.chamada{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .promo{
@@ -36,21 +47,8 @@ main{
     font-size: 1.8em;
 }
 
-.text-modif-um{
-    text-align: left;
-}
-
-.text-modif-dois{
-    text-align: right;
-}
-
-.carro-padrao{
-    display: block;
-    margin: auto;
-    max-width: 90vw;
-}
-
 .contato{
+    font-family: 'rowdies', cursive;
     text-align: center;
     font-weight: bold;
     border-radius: 5px;
@@ -81,8 +79,10 @@ main{
 }
 
 .cor-btn{
+    font-family: 'rowdies', cursive;
     background-color: #114094;
     color: white;
+    width: 70%;
 }
 
 .servicos-gerais{
@@ -134,17 +134,8 @@ main{
 }
 
 .img-padrao{
-    display: block;
-    margin: auto;
     max-width: 356.8px;
     height: auto;
-}
-
-.avaliacoes{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .comentario{
@@ -230,24 +221,4 @@ footer{
     text-align: center;
     padding: 5px;
     font-size: 0.7em;
-}
-
-@media (min-width: 768px) {
-
-    .chamada{
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-        justify-content: space-around;
-    }
-
-    .promo{
-        margin: 0;
-    }
-}
-
-@media (min-width: 990px){
-    body{
-        padding: 0 70px;
-    }
 }

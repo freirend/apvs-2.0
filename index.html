@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="src/estilos/style.css">
+    <link rel="stylesheet" href="src/estilos/medias.css">
     <title>Document</title>
 </head>
 <body>
     <header class="primeiro-cont">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light nav-head fixed-top mb-5">
             <a href="">
                 <div class="logo">
                     <span>Felipe APVS</span>
@@ -35,11 +36,11 @@
     <main>
         <section class="chamada mb-5">
             <picture>
-                <img src="src/imagens-projeto2/carro-section-um.png" alt="carro azul first-section"    class="carro-padrao mb-2">
+                <img src="src/imagens-projeto2/carro-sec-um.jpg" alt="carro azul first-section"    class="img-padrao mb-2">
             </picture>
             <div class="promo">
-                <h1 class="mb-0 text-modif-um">Proteja seu veículo</h1>
-                <h1 class="text-modif-dois">A partir de 79,90</h1>
+                <h1 class="mb-0">Proteja seu veículo</h1>
+                <h1>A partir de 79,90</h1>
                 <a href="">
                     <div class="contato">
                         <span>Fale com o consultor</span>
@@ -48,64 +49,66 @@
             </div>
         </section>
 
-        <section id="servicos" class="mb-5">
+        <section id="servicos" class="servicos mb-5">
             <h2 class="titulo-secao mb-3">Serviços</h2>
-            <div class="card mb-2">
-                <img class="card-img-top" src="src/imagens-projeto2/moto-azul.png" alt="moto azul section dois">
-                <div class="card-body">
-                  <p class="card-text">Proteção para moto até <strong>R$63.000,00</strong></p>
-                  <a href="#" class="btn cor-btn">Cotação</a>
+            <div class="card-valor">
+                <div class="card mb-2">
+                    <img class="card-img-top" src="src/imagens-projeto2/moto-azul.png" alt="moto azul section dois">
+                    <div class="card-body">
+                      <p class="card-text">Proteção para moto até <strong>R$63.000,00</strong></p>
+                      <a href="#" class="btn cor-btn">Cotação</a>
+                    </div>
                 </div>
-              </div>
-              <div class="card mb-2">
-                <img class="card-img-top" src="src/imagens-projeto2/carro-azul.png" alt="moto azul section dois">
+                <div class="card mb-2">
+                    <img class="card-img-top" src="src/imagens-projeto2/carro-azul.png" alt="moto azul section dois">
                 <div class="card-body">
-                  <p class="card-text">Proteção para carro até <strong>R$251.000,00</strong></p>
-                  <a href="#" class="btn cor-btn">Cotação</a>
+                      <p class="card-text">Proteção para carro até <strong>R$251.000,00</strong></p>
+                      <a href="#" class="btn cor-btn">Cotação</a>
                 </div>
-              </div>
-              <div class="card mb-2">
-                <img class="card-img-top" src="src/imagens-projeto2/caminhao-azul.png" alt="moto azul section dois">
-                <div class="card-body">
-                  <p class="card-text">Proteção para caminhão até <strong>R$500.000,00</strong></p>
-                  <a href="#" class="btn cor-btn">Cotação</a>
                 </div>
-              </div>
+                <div class="card mb-2">
+                    <img class="card-img-top" src="src/imagens-projeto2/caminhao-azul.png" alt="moto azul section dois">
+                    <div class="card-body">
+                      <p class="card-text">Proteção para caminhão até <strong>R$500.000,00</strong></p>
+                      <a href="#" class="btn cor-btn">Cotação</a>
+                    </div>
+                </div>
+            </div>
 
             <div class="servicos-gerais">
-                <picture>
-                    <img src="src/imagens-projeto2/carro-protegido.png" alt="carro protegido" class="img-padrao mb-2">
-                </picture>
-                <div class="lista-gerais">
-                    <h3>100% da FIPE</h3>
-                    <ul>
-                        <li>Roubo e furto</li>
-                        <li>Colisão</li>
-                        <li>Incêndio</li>
-                        <li>Danos a terceiros</li>
-                        <li>Perda total</li>
-                        <li> Alagamentos</li>
-                        <li>Fenômenos naturais</li>
-                    </ul>
-                </div>
-                <div class="lista-gerais">
-                    <h3>+Benefícios</h3>
-                    <ul>
-                        <li>Assistência residencial</li>
-                        <li>Reboque 24h</li>
-                        <li>Rastreador</li>
-                        <li>Carro reserva</li>
-                        <li>Monitoramento grátis</li>
-                        <li>Cobertura nacional</li>
-                        <li>E muitos outros</li>
-                    </ul>
+                <img src="src/imagens-projeto2/carro-protegido.png" alt="carro protegido" class="img-padrao mb-2">
+                <div class="listas">
+                    <div class="lista-gerais">
+                        <h3>100% da FIPE</h3>
+                        <ul>
+                            <li>Roubo e furto</li>
+                            <li>Colisão</li>
+                            <li>Incêndio</li>
+                            <li>Danos a terceiros</li>
+                            <li>Perda total</li>
+                            <li> Alagamentos</li>
+                            <li>Fenômenos naturais</li>
+                        </ul>
+                    </div>
+                    <div class="lista-gerais">
+                        <h3>+Benefícios</h3>
+                        <ul>
+                            <li>Assistência residencial</li>
+                            <li>Reboque 24h</li>
+                            <li>Rastreador</li>
+                            <li>Carro reserva</li>
+                            <li>Monitoramento grátis</li>
+                            <li>Cobertura nacional</li>
+                            <li>E muitos outros</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="sobre" class="mb-5">
-            <div class="sobre-apvs">
-                <h2 class="titulo-secao mb-3">Sobre a APVS</h2>
+        <section id="sobre" class="sobre mb-5">
+            <h2 class="titulo-secao mb-3">Sobre a APVS</h2>
+            <div class="sobre-apvs mb-3">
                 <picture>
                     <img src="src/imagens-projeto2/Design sem nome (25).jpg" alt="imagem apvs proteção veícular" class="img-padrao mb-3">
                 </picture>
@@ -114,7 +117,7 @@
                     <h3>Missão:</h3>
                     <p>promover o associativismo com excelência no atendimento, agregando benefícios aos associados</p>
                     <h3>Valores:</h3>
-                    <ul>
+                    <ul class="p-0 pl-3">
                         <li>Satisfação do associado</li>
                         <li>Valorização e respeito as pessoas</li>
                         <li>Atendimento com excelência</li>
@@ -124,8 +127,8 @@
                     <p>Ser a maior associação de benefícios com atuação em quatro países da América Latina</p>
                 </div>
             </div>
+            <h2 class="titulo-secao mb-3">Sobre o consultor</h2>
             <div class="sobre-consultor">
-                <h2 class="titulo-secao mb-3">Sobre o consultor</h2>
                 <picture>
                     <img src="src/imagens-projeto2/img-felipe.jpg" alt="imagem apvs proteção veícular" class="img-padrao mb-3">
                 </picture>
@@ -140,35 +143,39 @@
             </div>
         </section>
 
-        <section id="avaliacoes" class="avaliacoes mb-5">
+        <section id="avaliacoes" class="avaliacoes mb-5 d-flex flex-column justify-content-center align-items-center">
             <h2 class="titulo-secao mb-3">Clientes indenizados</h2>
-            <div class="card-personalizado">
-                <img src="src/imagens-projeto2/indenizado-um.jpg" alt="indenizado um" class="img-padrao">
-                <div class="comentario">
-                    <h3 class="m-0">Alex de Oliveira</h3>
-                    <p>Sofri um sinsitro no mês de junho e no finalzinho de agosto fui ressarcido pela APVS. Com certeza eu indico a APVS pelo bom serviço de vocês.</p>
+            <div class="row centro-cards">
+                <div class="card-personalizado col-12 col-lg-6">
+                    <img src="src/imagens-projeto2/indenizado-um.jpg" alt="indenizado um" class="img-padrao">
+                    <div class="comentario">
+                        <h3 class="m-0">Alex de Oliveira</h3>
+                        <p>Sofri um sinsitro no mês de junho e no finalzinho de agosto fui ressarcido pela APVS. Com certeza eu indico a APVS pelo bom serviço de vocês.</p>
+                    </div>
+                </div>
+                <div class="card-personalizado col-12 col-lg-6">
+                    <img src="src/imagens-projeto2/indenizado-dois.jpg" alt="indenizado dois" class="img-padrao">
+                    <div class="comentario">
+                        <h3 class="m-0">Thiago Santana</h3>
+                        <p>Meu nome é Thiago Santana, moro em Guadalupe e por volta de uns 2 meses atras, aconteceu um sinistro comigo. Gracas a APVS eu fui indenizado. Então indico a APVS! Faz o 1 e vem.</p>
+                    </div>
                 </div>
             </div>
-            <div class="card-personalizado">
-                <img src="src/imagens-projeto2/indenizado-dois.jpg" alt="indenizado dois" class="img-padrao">
-                <div class="comentario">
-                    <h3 class="m-0">Thiago Santana</h3>
-                    <p>Meu nome é Thiago Santana, moro em Guadalupe e por volta de uns 2 meses atras, aconteceu um sinistro comigo. Gracas a APVS eu fui indenizado. Então indico a APVS! Faz o 1 e vem.</p>
+            <div class="row centro-cards">
+                <div class="card-personalizado col-12 col-lg-6">
+                    <img src="src/imagens-projeto2/indenizado-três.jpg" alt="indenizado três" class="img-padrao">
+                    <div class="comentario">
+                        <h3 class="m-0">Valmir Limir</h3>
+                        <p>Meu nome é Valmir, eu sofri um sinsitro e eu recebi da APVS tudo que tinha direito e eu indico para quem possa interessar.
+                        A APVS é muito boa, é nota MIL!</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card-personalizado">
-                <img src="src/imagens-projeto2/indenizado-três.jpg" alt="indenizado três" class="img-padrao">
-                <div class="comentario">
-                    <h3 class="m-0">Valmir Limir</h3>
-                    <p>Meu nome é Valmir, eu sofri um sinsitro e eu recebi da APVS tudo que tinha direito e eu indico para quem possa interessar.
-                    A APVS é muito boa, é nota MIL!</p>
-                </div>
-            </div>
-            <div class="card-personalizado">
-                <img src="src/imagens-projeto2/indenizado-cinco.jpg" alt="indenizado cinco" class="img-padrao">
-                <div class="comentario">
-                    <h3 class="m-0">Alexandre Alves</h3>
-                    <p>Dia 9 de junho eu sofri um sinsitro e dia 29 de agosto eu fui ressarcido pela APVS e indico ela a todos vocês pelo ótimo serviço prestado e excelente atendimento.</p>
+                <div class="card-personalizado col-12 col-lg-6">
+                    <img src="src/imagens-projeto2/indenizado-cinco.jpg" alt="indenizado cinco" class="img-padrao">
+                    <div class="comentario">
+                        <h3 class="m-0">Alexandre Alves</h3>
+                        <p>Dia 9 de junho eu sofri um sinsitro e dia 29 de agosto eu fui ressarcido pela APVS e indico ela a todos vocês pelo ótimo serviço prestado e excelente atendimento.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -212,7 +219,7 @@
           </div>
         </section>
 
-        <section id="cotacao" class="cotacao mb-5">
+        <section id="cotacao" class="cotacao mb-2">
             <h2 class="titulo-secao mb-3">Receba uma cotação em 1 minuto</h2>
             <p>Clique no botão "Cotação em 1 minuto" para receber uma análise gratuita de um especialista em proteção veicular.</p>
             <i class="uil uil-whatsapp"></i>
