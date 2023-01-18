@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body{
+    color: #8b8b8c;
+    font-family: 'roboto', cursive;
+}
+
+.logo{
+    width: 115px;
+    color: #114094;
+    font-family:'Rowdies', cursive;
+}
+
+.logo > span{
+    font-size: 1.5em;
+}
+
+main{
+    padding: 0 16px;
+}
+
+.promo{
+    font-family: 'rowdies', sans-serif;
+    color: #114094;
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+}
+
+.promo h1{
+    font-weight: 400;
+    font-size: 1.8em;
+}
+
+.text-modif-um{
+    text-align: left;
+}
+
+.text-modif-dois{
+    text-align: right;
+}
+
+.carro-padrao{
+    display: block;
+    margin: auto;
+    max-width: 90vw;
+}
+
+.contato{
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 1.3em;
+    padding: 5px;
+    margin: auto;
+    max-width: 400px;
+    color: white;
+    background-color:#114094;
+}
+
+.promo > a:hover{
+    text-decoration: none;
+}
+
+.titulo-secao{
+    text-align: center;
+    font-size: 1.8em;
+    font-family:'rowdies', sans-serif;
+    color: #114094;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.312);
+}
+
+.card{
+    text-align: center;
+    width: 15rem;
+    margin: auto;
+}
+
+.cor-btn{
+    background-color: #114094;
+    color: white;
+}
+
+.lista-gerais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista-gerais h3{
+    font-family:'rowdies', sans-serif;
+    color: #114094;
+    font-size: 1.4em;
+}
+
+.lista-gerais li{
+    font-size: 0.9em;
+}
+
+.img-sobre{
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+
+    .chamada{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .promo{
+        margin: 0;
+    }
+}
+
+@media (min-width: 990px){
+    body{
+        padding: 0 70px;
+    }
+}
