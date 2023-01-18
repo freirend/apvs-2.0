@@ -51,6 +51,7 @@ main{
 }
 
 .contato{
+    text-align: center;
     font-weight: bold;
     border-radius: 5px;
     font-size: 1.3em;
@@ -100,11 +101,37 @@ main{
     font-size: 0.9em;
 }
 
+.sobre-apvs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-consultor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-apvs h3{
+    font-size: 1.2em;
+}
+
+.sobre-apvs li, p{
+    font-size: 0.9em;
+}
+
+.texto-sobre{
+    width: 356.8px;
+}
+
 .img-sobre{
     display: block;
-    width: 300px;
-    height: 300px;
     margin: auto;
+    width: 356.8px;
+    height: auto;
 }
 
 @media (min-width: 768px) {
