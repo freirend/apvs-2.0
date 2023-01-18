@@ -193,6 +193,7 @@ main{
     margin-bottom: 15px;
     transition: .5s ease-in-out;
     line-height: 20px;
+    text-align: center;
 }
 
 .ativar{
@@ -223,6 +224,12 @@ main{
 
 .cotacao .contato{
     width: 356.8px
+}
+
+footer{
+    text-align: center;
+    padding: 5px;
+    font-size: 0.7em;
 }
 
 @media (min-width: 768px) {
