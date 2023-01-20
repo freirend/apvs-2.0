@@ -44,6 +44,10 @@ main{
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
 }
 
+a:hover{
+    text-decoration: none;
+}
+
 .contato{
     font-family: 'rowdies', cursive;
     text-align: center;
@@ -65,9 +69,6 @@ main{
 .contato:hover{
     color: #114094;
     background-color: white;
-}
-
-.promo > a:hover{
     text-decoration: none;
 }
 
