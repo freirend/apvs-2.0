@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 body{
-    color: #8b8b8c;
+    color: rgb(39, 39, 39);
     font-family: 'roboto', cursive;
 }
 
@@ -17,6 +17,31 @@ body{
 
 .logo > span{
     font-size: 1.5em;
+}
+
+.back-color{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imagens-projeto2/jumbo.png);
+    background-size: cover;
+    background-position: center center;
+    height: 350px;
+    background-color: #2ca1d7;
+}
+
+header .contato{
+    background-color: white;
+    color: #33373d;
+}
+
+header .contato:hover{
+    background-color: #114094;
+    color: white;
+}
+
+.img-head{
+    display: none;
 }
 
 main{
@@ -32,7 +57,7 @@ main{
 
 .promo{
     font-family: 'rowdies', sans-serif;
-    color: #114094;
+    color: white;
     text-align: center;
     max-width: 400px;
     margin: auto;

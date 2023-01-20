@@ -2,6 +2,10 @@
 
 @media (min-width: 600px) {
 
+    .promo h1{
+        font-size: 2.0em;
+    }
+
     .img-padrao{
         max-width: 420px;
     }
@@ -47,10 +51,6 @@
         align-items: center;
         justify-content: space-around;
     }
-
-    .promo{
-        margin: 0;
-    }
 }
 
 @media (max-width: 991px){
@@ -72,9 +72,18 @@
 
 @media (min-width: 992px){
 
-    .chamada{
+    .img-head{
+        display: block;
+        width: 500px;
+    }
+
+    .alinhar-head{
+        display: flex;
+        align-items: center;
         justify-content: center;
-        gap: 170px;
+        flex-direction: row;
+        width: 960px;
+        gap: 67px;
     }
 
     .card{
@@ -128,10 +137,20 @@
         max-width: 870px;
     }
 
+    .resposta{
+        max-width: 870px;
+    }
+
 }
 
 @media (min-width: 1500px){
-    body{
+
+    .alinhar-head{
+        width: 1108px;
+        gap: 145px;
+    }
+
+    .alig-itens{
         margin: 0px 234px;
     }
 
@@ -176,6 +195,10 @@
     }
 
     .pergunta{
+        max-width: 1025px;
+    }
+
+    .resposta{
         max-width: 1025px;
     }
 }
