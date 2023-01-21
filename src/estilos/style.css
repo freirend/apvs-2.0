@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 body{
-    color: rgb(39, 39, 39);
+    color: rgb(59, 59, 59);
     font-family: 'roboto', cursive;
 }
 
@@ -32,7 +32,7 @@ body{
 
 header .contato{
     background-color: white;
-    color: #33373d;
+    color: #114094;
 }
 
 header .contato:hover{
@@ -172,6 +172,13 @@ a:hover{
 
 .texto-sobre{
     max-width: 356.8px;
+}
+
+.texto-maior{
+    text-align: center;
+    padding-bottom: 15px;
+    width: 250px;
+    margin: auto;
 }
 
 .img-padrao{
